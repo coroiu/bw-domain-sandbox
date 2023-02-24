@@ -1,6 +1,6 @@
 import { Observable, of } from "rxjs";
-import { SymmetricCryptoKey } from "../domain/core/symmetric-crypto-key";
-import { CryptoKeyRepository } from "../domain/ports/crypto-key.repository";
+import { SymmetricCryptoKey } from "../domain/symmetric-crypto-key";
+import { CryptoKeyRepository } from "../ports/crypto-key.repository";
 
 export class InMemoryCryptoKeyRepository implements CryptoKeyRepository {
   private keys = new Map<string, SymmetricCryptoKey>();

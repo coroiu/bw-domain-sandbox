@@ -1,5 +1,5 @@
 import { Observable } from "rxjs";
-import { SymmetricCryptoKey } from "../core/symmetric-crypto-key";
+import { SymmetricCryptoKey } from "../domain/symmetric-crypto-key";
 
 export interface CryptoFunctionsInterface {
   encrypt(key: SymmetricCryptoKey, data: string): Observable<string>;

@@ -1,5 +1,5 @@
 import { Observable } from "rxjs";
-import { SymmetricCryptoKey } from "../core/symmetric-crypto-key";
+import { SymmetricCryptoKey } from "../domain/symmetric-crypto-key";
 
 export interface CryptoKeyRepository {
   getPrivateKey(userId: string): Observable<SymmetricCryptoKey | undefined>;

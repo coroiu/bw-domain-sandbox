@@ -1,4 +1,4 @@
-import { SymmetricCryptoKey } from "../domain/core/symmetric-crypto-key";
+import { SymmetricCryptoKey } from "../core/domain/symmetric-crypto-key";
 
 const textEncoder = new TextEncoder();
 

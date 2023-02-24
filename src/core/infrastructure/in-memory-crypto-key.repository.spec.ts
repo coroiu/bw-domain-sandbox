@@ -1,5 +1,5 @@
 import { firstValueFrom } from "rxjs";
-import { createKeyFromString } from "../test-utils/symmetric-crypto-key";
+import { createKeyFromString } from "../../test-utils/symmetric-crypto-key";
 import { InMemoryCryptoKeyRepository } from "./in-memory-crypto-key.repository";
 
 describe("InMemoryCryptoKeyRepository", () => {
