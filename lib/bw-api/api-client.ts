@@ -1,6 +1,6 @@
 import { Observable, switchMap } from "rxjs";
 import { fromFetch } from "rxjs/fetch";
-import { LoginParams } from "./login-params";
+import { LoginParams } from "../utils/login-params";
 
 import { encode } from "querystring";
 
